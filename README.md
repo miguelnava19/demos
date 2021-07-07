@@ -50,7 +50,7 @@ Response Ejemplo:
 
 .- Descomprimir archivo
 
-.- Crear GRAILS_HOME, path ej. : C:\grails\grails-2.5.0
+.- Crear GRAILS_HOME en variables de sistema, path ej. : C:\grails\grails-2.5.0
 
 .- Abrir proyecto y ejecutar en consola: grails run-app
 
