@@ -150,12 +150,12 @@
         changeAmount();
     });
 
-    /*$("#year").on("blur",function (){
+    $("#year").on("blur",function (){
         let anio = $(this).val();
         if (anio.length !== 4){
             alert("Year expiration min size min acepted 4");
         }
-    });*/
+    });
 
     $("#litros").on("change", function () {
         changeAmount();
@@ -239,7 +239,7 @@
         $.post(url, serialize, function (response) {
             console.log("response ", response)
             alert(response.message)
-            // $("#form-compra")[0].reset();
+            $("#form-compra")[0].reset();
             $(".selected").removeClass("selected")
         })
     })
